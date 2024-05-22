@@ -1,5 +1,7 @@
 import puppeteer from "puppeteer";
 const url = process.env.URL || '';
+
+
 const main = async () =>{
   const browser = await puppeteer.launch({
     headless: true
@@ -12,11 +14,11 @@ const main = async () =>{
 
   const items = await page.evaluate(() =>{
 
-    const items = Array.from(document.querySelectorAll('.compra .texto h3'))
-    return items.map(item =>{
+    const items = Array.from(document.querySelectorAll('.compra'))
+    return items.map((item: any) =>{
       return {
-        title: item.textContent,
-
+        title:  item.querySelector('.texto h3')?.textContent,
+        details: item.querySelector('.texto p')?.textContent.replaceAll('\n', '').replaceAll('        ', '')
       }
     })
   })
