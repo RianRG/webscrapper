@@ -1,4 +1,7 @@
 # Webscrapper
+
+https://github.com/RianRG/webscrapper/assets/134891464/89222eba-c3d0-47f9-8fe3-05ca45b416a9
+
 A minimalist webscrapper built to list headphones and their details (using my website as target)
 
 ## Main concept
