@@ -6,7 +6,11 @@
   <title>Document</title>
 </head>
 <body>
-  
+  <style>
+    img{
+      max-width: 200px
+    }
+  </style>
   <script>
     (async () =>{
       const response  = await fetch('products.json')
@@ -14,8 +18,12 @@
       
       data.forEach(k =>{
         const div = document.createElement('div')
+        const img = document.createElement('img')
+        console.log(k)
+        img.src = k.img;
         div.textContent = k.title
         document.body.appendChild(div)
+        document.body.appendChild(img)
       })
     })()
   </script>

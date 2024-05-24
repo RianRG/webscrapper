@@ -14,7 +14,8 @@ const main = async () =>{
     const items = Array.from(document.querySelectorAll('.compra'))
     return items.map((item: any) =>({
       title:  item.querySelector('.texto h3')?.textContent,
-      details: item.querySelector('.texto p')?.textContent.replaceAll('\n', '').replaceAll('        ', '')
+      details: item.querySelector('.texto p')?.textContent.replaceAll('\n', '').replaceAll('        ', ''),
+      img: item.querySelector('.imfone img')?.src
     }))
   })
   await browser.close();

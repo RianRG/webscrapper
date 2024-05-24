@@ -1,42 +1,52 @@
 [
   {
     "title": "Tune 720BT",
-    "details": "Fone Branco bluetooth, Supra-auricular; Sem fio;Bluetooth; JBL"
+    "details": "Fone Branco bluetooth, Supra-auricular; Sem fio;Bluetooth; JBL",
+    "img": "https://rianrg.github.io/projetoEscolar/imgs/headbranco.png"
   },
   {
     "title": "Tune 720BT",
-    "details": "Fone Preto bluetooth, Supra-auricular; Sem fio;Bluetooth; Wireless; JBL"
+    "details": "Fone Preto bluetooth, Supra-auricular; Sem fio;Bluetooth; Wireless; JBL",
+    "img": "https://rianrg.github.io/projetoEscolar/imgs/headpretofull.png"
   },
   {
     "title": "Quantum ONE",
-    "details": "Fone Preto bluetooth, Headset Over-ear; Com fio USB; JBL"
+    "details": "Fone Preto bluetooth, Headset Over-ear; Com fio USB; JBL",
+    "img": "https://rianrg.github.io/projetoEscolar/imgs/headpreto.png"
   },
   {
     "title": "Tune 710BT",
-    "details": "Fone Preto, Headset Over-ear; Com fio USB; JBL"
+    "details": "Fone Preto, Headset Over-ear; Com fio USB; JBL",
+    "img": "https://rianrg.github.io/projetoEscolar/imgs/head710.png"
   },
   {
     "title": "JBL duet Gry",
-    "details": "Fone Dourado, Headset Over-ear; Bluetooth; JBL"
+    "details": "Fone Dourado, Headset Over-ear; Bluetooth; JBL",
+    "img": "https://rianrg.github.io/projetoEscolar/imgs/goldenhead.png"
   },
   {
     "title": "JBL Tune 215BT",
-    "details": "Fone Preto, Fone de Ouvido; Com fio USB; JBL"
+    "details": "Fone Preto, Fone de Ouvido; Com fio USB; JBL",
+    "img": "https://rianrg.github.io/projetoEscolar/imgs/foneouvido.png"
   },
   {
     "title": "JBL JR300BT",
-    "details": "Fone Rosa, Headset Over-Ear; Bluetooth; JBL;Infantil"
+    "details": "Fone Rosa, Headset Over-Ear; Bluetooth; JBL;Infantil",
+    "img": "https://rianrg.github.io/projetoEscolar/imgs/fonerosa.webp"
   },
   {
     "title": "JBL E25BT",
-    "details": "Fone Preto, Fone de ouvido; Com fio USB; JBL;"
+    "details": "Fone Preto, Fone de ouvido; Com fio USB; JBL;",
+    "img": "https://rianrg.github.io/projetoEscolar/imgs/foneouvido22.png"
   },
   {
     "title": "JBL JR 310BT",
-    "details": "Fone Roxo, Headset Over-Ear; Bluetooth; JBL;Infantil"
+    "details": "Fone Roxo, Headset Over-Ear; Bluetooth; JBL;Infantil",
+    "img": "https://rianrg.github.io/projetoEscolar/imgs/foneroxo.webp"
   },
   {
     "title": "Tune 115TWS",
-    "details": "Fone Preto, Fone sem fio; Bluetooth; JBL;Caixa inlcusa;"
+    "details": "Fone Preto, Fone sem fio; Bluetooth; JBL;Caixa inlcusa;",
+    "img": "https://rianrg.github.io/projetoEscolar/imgs/ouvidobluet.webp"
   }
 ]
