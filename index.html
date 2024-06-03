@@ -13,16 +13,16 @@
   </style>
   <script>
     (async () =>{
-      const response  = await fetch('products.json')
+      const response = await fetch('products.json');
       const data = await response.json();
-      
-      data.forEach(k =>{
-        const div = document.createElement('div')
+
+      data.forEach(item =>{
+        const p = document.createElement('p')
+        p.textContent = item.title
         const img = document.createElement('img')
-        console.log(k)
-        img.src = k.img;
-        div.textContent = k.title
-        document.body.appendChild(div)
+        img.src = item.img
+
+        document.body.appendChild(p);
         document.body.appendChild(img)
       })
     })()

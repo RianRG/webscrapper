@@ -29,4 +29,12 @@ then run the following command
 pnpm run dev
 ```
 
+It will run the webscrapper and create the file "products.json" with your required datas.
+
+But remember, do not start the index.html by the traditional way (you would get CORS problems), you need to start the html using this command on terminal:
+
+```
+pnpm lite-server
+```
+
 thank you
